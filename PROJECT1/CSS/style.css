@@ -1,0 +1,105 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+   background-image: url(file:///C:/Users/HP%20PRO/Desktop/PROJECT1/IMAGE/backgrond.gif)
+}
+
+header, footer {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    border: solid 5px rgb(0, 0, 0);
+}
+
+.slider {
+    width: 760px;
+    position: relative;
+    left: 20px;
+    width: 800px;
+    height: 300px;
+}
+
+article {
+    clear: both;
+    margin-top: 10px;
+}
+
+section {
+    width: 200px;
+    border: 2px solid #270906;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    background-color: aliceblue;
+}
+
+footer {
+    clear: both;
+    margin-top: 10px;
+    width: 50px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    left: 40%;
+
+    }
+nav{
+    width: 1000px;
+    position: relative;
+    top: -60px;
+    left: 100px;
+}
+nav li {
+    background: rgb(218, 233, 9);
+    display: inline;
+    list-style: none;
+}
+nav li a {
+    border: solid 1px black;
+    background: rgb(164, 228, 225);
+    text-decoration: none;
+    color: black;
+    padding: 15px 60px;
+    margin: -2px;
+}
+nav li a:hover {
+    background-color: rgb(211, 163, 5);
+    text-decoration: underline;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  .section3{
+    width: 200px;
+    height: 200px;
+    background-color: #F6F7F9;
+
+  }
+  
+  .twitter {
+    width: 30px;
+    height: 30px;
+    display: inline;
+
+  }
+  .youtube {
+    width: 30px;
+    height: 30px;
+    display: inline;
+
+  }
+  .instagram {
+    width: 30px;
+    height: 30px;
+    display: inline;
+
+  }
+  .facebook{
+    width: 30px;
+    height: 30px;
+    display: inline;
+
+  }
