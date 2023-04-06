@@ -4,13 +4,21 @@ body {
    background-image: url(../IMAGE/backgrond.gif)
 }
 
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
 header, footer {
     padding: 10px;
 }
 
 .logo {
-    width: 100px;
-    border: solid 5px rgb(0, 0, 0);
+  width: 100px;
+  border: solid 5px rgb(0, 0, 0);
+  margin-right: auto;
 }
 
 .slider {
@@ -21,10 +29,13 @@ header, footer {
     height: 300px;
 }
 
-article {
-    clear: both;
-    margin-top: 10px;
+  article {
+    flex: 1 1 300px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 section {
     width: 200px;
@@ -36,42 +47,59 @@ section {
 }
 
 footer {
-    clear: both;
-    margin-top: 10px;
-    width: 50px;
-    width: 200px;
-    margin: 5px;
-    padding: 5px;
-    position: relative;
-    left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 10px;
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+  bottom: -900px;
+  left: 0;
+  right: 0;
+}
+nav {
+  width: 1000px;
+  margin: -60px auto 0;
+  display: flex;
+  justify-content: center;
+}
 
-    }
-nav{
-    width: 1000px;
-    position: relative;
-    top: -60px;
-    left: 100px;
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 nav li {
-    background: rgb(218, 233, 9);
-    display: inline;
-    list-style: none;
+  background: rgb(218, 233, 9);
+  margin: 0 5px;
 }
+
 nav li a {
-    border: solid 1px black;
-    background: rgb(164, 228, 225);
-    text-decoration: none;
-    color: black;
-    padding: 15px 60px;
-    margin: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  background: rgb(164, 228, 225);
+  text-decoration: none;
+  color: black;
+  padding: 15px 60px;
 }
+
 nav li a:hover {
-    background-color: rgb(211, 163, 5);
-    text-decoration: underline;
-  }
-  nav ul li {
-    display: inline-block;
-  }
+  background-color: rgb(211, 163, 5);
+  text-decoration: underline;
+}
+
+nav ul li:first-of-type {
+  margin-left: 0;
+}
+
+nav ul li:last-of-type {
+  margin-right: 0;
+}
   .section3{
     width: 200px;
     height: 200px;
